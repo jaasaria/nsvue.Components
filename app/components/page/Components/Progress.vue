@@ -13,7 +13,7 @@
     >
       <Progress width="100%" :value="currentProgress" maxValue="100" @valueChange="valueChange"/>
 
-      <Label :text="currentProgress" textWrap="true"/>
+      <Label horizontalAlignment="center" :text="currentProgress" textWrap="true"/>
 
       <Button text="Press Me" @tap="press"/>
     </StackLayout>

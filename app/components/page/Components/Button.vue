@@ -2,7 +2,6 @@
   <Page>
     <ActionBar title="Button" class="actionbar">
       <NavigationButton android.systemIcon="ic_menu_back" @tap="$navigateBack()"/>
-      <ActionItem android.position="actionBar" ios.position="right"/>
     </ActionBar>
 
     <StackLayout
@@ -12,6 +11,7 @@
       height="100%"
     >
       <Button text="Simple Button" @tap="Press('Message')"/>
+      <Button isEnabled="false" text="isEnabled False Button" @tap="Press('Message')"/>
       <Button text="With style Button" class="btn btn-primary" @tap="Press('Message')"/>
       <Button text="Transparent Button" class="trans" @tap="Press('Message')"/>
       <Button text="Lower Case Button" class="lowercase" @tap="Press('Message')"/>

@@ -2,7 +2,6 @@
   <Page>
     <ActionBar title="Label" class="actionbar">
       <NavigationButton android.systemIcon="ic_menu_back" @tap="$navigateBack()"/>
-      <ActionItem android.position="actionBar" ios.position="right"/>
     </ActionBar>
 
     <StackLayout
@@ -32,8 +31,17 @@
         textWrap="false"
       />
 
-      <Label :text="'fa-heart' | fonticon" class="fa heart" horizontalAlignment="center" textWrap="true"/>
-      <Label class="fa heart" horizontalAlignment="center" textWrap="true">Label with text and icon {{ 'fa-heart' | fonticon }}</Label>
+      <Label
+        :text="'fa-heart' | fonticon"
+        class="fa heart"
+        horizontalAlignment="center"
+        textWrap="true"
+      />
+      <Label
+        class="fa heart"
+        horizontalAlignment="center"
+        textWrap="true"
+      >Label with text and icon {{ 'fa-heart' | fonticon }}</Label>
 
       <StackLayout orientation="horizontal" horizontalAlignment="center" verticalAlignment="center">
         <Label text="Click Me" class="fa lblbutton" @tap="isHeart = !isHeart" textWrap="true"/>

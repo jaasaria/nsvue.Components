@@ -13,7 +13,7 @@
     >
       <ActivityIndicator :busy="isLoading" @busyChange="onBusyChanged"/>
 
-      <Button class="m-t-30" text="Press me to load" @tap="press"/>
+      <Button :isEnabled="!isLoading" class="m-t-30" text="Press me to load" @tap="press"/>
     </StackLayout>
   </Page>
 </template>
@@ -21,6 +21,9 @@
 
 <script >
 export default {
+  mounted() {
+    this.press();
+  },
   data() {
     return {
       isLoading: false,
@@ -35,7 +38,7 @@ export default {
       this.isLoading = true;
       setTimeout(() => {
         this.isLoading = false;
-      }, 3000);
+      }, 2000);
     }
   }
 };

@@ -41,6 +41,7 @@ import Sounds from "./Components/Sounds";
 import Page from "./Actionbar/Page";
 import ActionBar from "./Actionbar/ActionBar";
 import NavigationButton from "./Actionbar/NavigationButton";
+import ActionItem from "./Actionbar/ActionItem";
 
 import ActionDialog from "./Dialog/ActionDialog";
 import AlertDialog from "./Dialog/AlertDialog";
@@ -69,7 +70,7 @@ export default {
         { name: "Switch ", click: () => this.$navigateTo(Switch) },
         { name: "Textview ", click: () => this.$navigateTo(Textview) },
         {
-          name: "ActivityIndicator ",
+          name: "Activity Indicator ",
           click: () => this.$navigateTo(ActivityIndicator)
         },
         { name: "Scrollview ", click: () => this.$navigateTo(Scrollview) },
@@ -82,20 +83,20 @@ export default {
         { name: "Timepicker ", click: () => this.$navigateTo(TimePicker) },
         { name: "ListPicker", click: () => this.$navigateTo(ListPicker) },
         {
-          name: "Appliying Sounds",
-          click: () => this.$navigateTo(Sounds)
-        },
-        {
-          name: "Animation ",
+          name: "Plugin and Sounds",
           click: () => this.$navigateTo(Sounds)
         },
 
         // Actionbar
         { name: "Page ", click: () => this.$navigateTo(Page) },
-        { name: "Actionbar ", click: () => this.$navigateTo(ActionBar) },
+        { name: "Action Bar ", click: () => this.$navigateTo(ActionBar) },
         {
           name: "Navigation Button",
           click: () => this.$navigateTo(NavigationButton)
+        },
+        {
+          name: "Action Item",
+          click: () => this.$navigateTo(ActionItem)
         },
 
         // Routing
