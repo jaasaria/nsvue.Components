@@ -1,0 +1,5 @@
+{
+	"visualforce.format.wrapAttributes": "force-aligned",
+	"editor.defaultFormatter": "octref.vetur",
+	"html.format.endWithNewline": true
+}

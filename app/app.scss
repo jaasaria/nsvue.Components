@@ -1,0 +1,49 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/blue';
+
+// Override variables here
+@import '~nativescript-theme-core/scss/index';
+
+
+
+
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+
+Page{
+  font-size: 16;
+}
+ActionBar {
+  background-color: #ffac76;
+  color: #ffffff;
+}
+
+.content{ 
+	margin: 10;
+}
+
+// Fonts
+.fa {
+	font-family: "fontawesome-webfont";
+}
+
+.ion {
+	font-family: "ionicons";
+}
+
+
+.line-card {
+  border: 0;
+  height: 6;
+  background-color: #bdbdbd;
+}
+.lineBreak {
+	height: 7;
+	border: none;
+	color: #e0e0e0;
+	background-color: #e0e0e0;
+}
+
