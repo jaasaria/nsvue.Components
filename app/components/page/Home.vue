@@ -37,6 +37,7 @@ import DatePicker from "./Components/DatePicker";
 import TimePicker from "./Components/TimePicker";
 import ListPicker from "./Components/ListPicker";
 import Sounds from "./Components/Sounds";
+import Animation from "./Components/Animation";
 
 import Page from "./Actionbar/Page";
 import ActionBar from "./Actionbar/ActionBar";
@@ -82,6 +83,7 @@ export default {
         { name: "Datepicker", click: () => this.$navigateTo(DatePicker) },
         { name: "Timepicker ", click: () => this.$navigateTo(TimePicker) },
         { name: "ListPicker", click: () => this.$navigateTo(ListPicker) },
+        { name: "Animation", click: () => this.$navigateTo(Animation) },
         {
           name: "Plugin and Sounds",
           click: () => this.$navigateTo(Sounds)
