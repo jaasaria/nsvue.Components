@@ -43,6 +43,7 @@ export default {
 <style scoped>
 #app {
   z-index: 10;
+  background-color: #ec7a2e;
 }
 
 #background {

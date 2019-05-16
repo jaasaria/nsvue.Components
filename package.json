@@ -1,11 +1,11 @@
 {
-  "name": "facebook_clone",
+  "name": "NSComponents",
   "version": "1.0.0",
   "description": "A native application built with NativeScript-Vue",
   "author": "jaasaria <asaria_ja@yahoo.com>",
   "license": "MIT",
   "nativescript": {
-    "id": "org.nativescript.jaacodeblock",
+    "id": "org.jaasaria.nscomponents",
     "tns-ios": {
       "version": "5.0.0"
     },
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@vue/devtools": "^5.0.6",
-    "nativescript-audio": "^5.0.1",
+    "nativescript-audioplay": "^1.0.1",
     "nativescript-fonticon": "^2.0.0",
     "nativescript-socketio": "^3.2.1",
     "nativescript-swiss-army-knife": "^4.0.2",
@@ -23,7 +23,6 @@
     "nativescript-toast": "^2.0.0",
     "nativescript-toasty": "^1.3.0",
     "nativescript-vue": "^2.0.0",
-    "nativescript-vue-devtools": "^1.2.0",
     "tns-core-modules": "^5.0.2",
     "vuex": "^3.0.1"
   },

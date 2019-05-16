@@ -1,12 +1,11 @@
 <template>
-  <Page>
-    <ActionBar title="Home" icon/>>
+  <Page androidStatusBarBackground="#b4632c">
+    <ActionBar title="NS Components" icon/>>
     <StackLayout class="content">
       <ListView for="item in list" height="100%" class="list-group">
         <v-template>
           <GridLayout @tap="item.click" rows="auto" columns="*, auto" class="list-group-item">
             <Label :text="item.name" row="0" col="0"/>
-            <!-- <Button text="Test Me" @tap="item.click" row="0" col="1"/> -->
           </GridLayout>
         </v-template>
       </ListView>
@@ -129,11 +128,12 @@ export default {
           name: "Absolute Layout ",
           click: () => this.$navigateTo(AbsoluteLayout)
         },
-        { name: "Dock Layout", click: () => this.$navigateTo(DockLayout) },
-        { name: "Flex Layout", click: () => this.$navigateTo(FlexboxLayout) },
-        { name: "Grid Layout", click: () => this.$navigateTo(GridLayout) },
+        { name: "Wrap Layout ", click: () => this.$navigateTo(WrapLayout) },
         { name: "Stack Layout", click: () => this.$navigateTo(StackLayout) },
-        { name: "Wrap Layout ", click: () => this.$navigateTo(WrapLayout) }
+        { name: "Dock Layout", click: () => this.$navigateTo(DockLayout) },
+        { name: "Grid Layout", click: () => this.$navigateTo(GridLayout) },
+
+        { name: "Flex Layout", click: () => this.$navigateTo(FlexboxLayout) }
       ]
     };
   },

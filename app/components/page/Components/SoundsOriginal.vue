@@ -25,9 +25,7 @@
 
 
 <script >
-// const audio = require("nativescript-audio-no-record");
-const audio = require("nativescript-audioplay");
-
+const audio = require("nativescript-audio");
 const player = new audio.TNSPlayer();
 const playerOptions = {
   audioFile: "~/assets/audio/happy.mp3",
