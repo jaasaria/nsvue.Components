@@ -29,6 +29,8 @@
       >backgroundSpanUnderStatusBar Value: {{ backgroundSpanUnderStatusBar }}</Button>-->
 
       <Button text="Select Color" @tap="selectColor"/>
+
+      <Button text="Back" class="m-t-20" @tap="$navigateBack()"/>
     </StackLayout>
   </Page>
 </template>

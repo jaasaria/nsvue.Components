@@ -1,6 +1,6 @@
 <template>
   <Page>
-    <ActionBar title="ActionBar" class="actionbar">
+    <ActionBar title="Page Transistion" class="actionbar">
       <NavigationButton android.systemIcon="ic_menu_back" @tap="$navigateBack()"/>
       <ActionItem android.position="actionBar" ios.position="right"/>
     </ActionBar>
