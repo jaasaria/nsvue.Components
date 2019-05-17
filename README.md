@@ -4,7 +4,7 @@
 
 
 ## NS Components
-I created this app to help new learners on how to apply components, plugins and common used of properties that may use in real world application.
+I created this app to help new learners on how to apply components, plugins and common used of properties/events that may use in real world application.
 
 If happen you 💖 my project please dont forget to give me a ⭐. Show your love and give me more motivation to create more open source project using Nativescript. 👍
 
@@ -17,6 +17,10 @@ If happen you 💖 my project please dont forget to give me a ⭐. Show your lov
 #### Todo: More Samples
 - [ ] Layout Elements
 - [ ] All
+
+#### Project Used:
+[Facebook UI](https://github.com/jaasaria/nsvue.FacebookUI)
+[Todo](https://github.com/jaasaria/nsvue.Todo-Offline)
 
 
 #### Plugin Used
