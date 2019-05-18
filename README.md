@@ -10,8 +10,7 @@ If happen you 💖 my project please dont forget to give me a ⭐. Show your lov
 
 
 #### Links
-- Google Playstore: to be follow
-- Others:
+- [Google Playstore](https://play.google.com/store/apps/details?id=org.jaasaria.nscomponents) 
 
 
 #### Todo: More Samples
@@ -20,6 +19,7 @@ If happen you 💖 my project please dont forget to give me a ⭐. Show your lov
 
 #### Project Used:
 [Facebook UI](https://github.com/jaasaria/nsvue.FacebookUI)
+
 [Todo](https://github.com/jaasaria/nsvue.Todo-Offline)
 
 
